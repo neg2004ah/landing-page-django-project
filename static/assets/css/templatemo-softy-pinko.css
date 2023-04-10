@@ -81,7 +81,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  background-color: #fff;
+  background-color: hsl(0, 54%, 37%);
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -108,7 +108,7 @@ global styles
 */
 html,
 body {
-  background: #fff;
+  background: #dfe0f8;
   font-family: "Raleway", sans-serif;
 }
 
@@ -129,7 +129,7 @@ body {
 }
 
 .section.colored {
-  background: #f2f2fe;
+  background: #eacff3;
 }
 
 .hr {
@@ -175,7 +175,7 @@ body {
   text-align: center;
   font-weight: 400;
   font-size: 16px;
-  color: #777;
+  color: #434343;
   line-height: 28px;
   letter-spacing: 1px;
   margin-bottom: 50px;
@@ -208,7 +208,7 @@ body {
 }
 
 .left-text p.dark {
-  color: #3B566E;
+  color: #040708;
 }
 
 .padding-bottom-top-60 {
@@ -314,7 +314,7 @@ a.main-button-slider {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #ff589e;
+  background-color: #8d0a92;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -325,14 +325,14 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #8261ee;
+  background-color: #8d0a92;
 }
 
 a.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #8261ee;
+  background-color: #8d0a92;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -343,7 +343,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #ff589e;
+  background-color: #8d0a92;
 }
 
 button.main-button {
@@ -353,7 +353,7 @@ button.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #8261ee;
+  background-color: #8d0a92;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -364,7 +364,7 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #ff589e;
+  background-color: #8d0a92;
 }
 
 
@@ -390,7 +390,7 @@ header
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   border-radius: 40px;
   min-height: 80px;
-  background: #fff;
+  background: #f6f6f6;
 }
 
 .header-area .main-nav .logo {
@@ -448,7 +448,7 @@ header
 }
 
 .header-area .main-nav .nav li a:hover {
-  color: #ff589e;
+  color: #ed94f2;
 }
 
 .header-area .main-nav .menu-trigger {
@@ -485,7 +485,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #3B566E;
+  background-color: #040506;
   display: block;
   position: absolute;
   width: 30px;
@@ -532,7 +532,7 @@ header
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #3B566E;
+  background-color: #040405;
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
@@ -540,7 +540,7 @@ header
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #3B566E;
+  background-color: #0b0c0c;
 }
 
 .header-area.header-sticky {
@@ -560,7 +560,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ff589e;
+  color: #dd3fec;
 }
 
 @media (max-width: 1200px) {
@@ -753,7 +753,7 @@ features
 .features-small-item {
   cursor: pointer;
   display: block;
-  background: #FFFFFF;
+  background: #e3d4f3;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -769,7 +769,7 @@ features
 }
 
 .features-small-item:hover .icon {
-  background-color: #ff589e;
+  background-color: #022845;
 }
 
 .features-small-item .icon {
@@ -783,7 +783,7 @@ features
   margin: auto;
   position: relative;
   margin-bottom: 30px;
-  background: #8261ee;
+  background: #0c032b;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -797,7 +797,7 @@ features
 .features-small-item .features-title {
   font-weight: 500;
   font-size: 18px;
-  color: #1e1e1e;
+  color: #d23da8;
   letter-spacing: 0.7px;
   margin-bottom: 15px;
   position: relative;
@@ -807,11 +807,12 @@ features
 .features-small-item p {
   font-weight: 400;
   font-size: 13px;
-  color: #777;
+  color: #090808;
   letter-spacing: 0.5px;
   line-height: 25px;
   position: relative;
   z-index: 2;
+  height: 180px;
 }
 
 .features-small-item a {
@@ -913,7 +914,7 @@ parallax & home seperator
 
 .mini .mini-content .mini-box {
   display: block;
-  background: #fff;
+  background: #e3d4f3;
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
@@ -924,6 +925,7 @@ parallax & home seperator
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   text-align: center;
+  height: 140px;
 }
 
 .mini .mini-content .mini-box:hover {
@@ -1111,12 +1113,13 @@ team
 --------------------------------------------- 
 */
 .team-item {
-  background: #fff;
+  background: #e3d4f3;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
   border-radius: 20px;
   position: relative;
   margin-bottom: 30px;
   padding-bottom: 25px;
+  height: 415px
 }
 
 .team-item:hover .team-content .team-info {
@@ -1166,7 +1169,7 @@ team
   display: block;
   font-weight: 400;
   font-size: 17px;
-  color: #1e1e1e;
+  color: #050505;
   letter-spacing: 0.25px;
   margin-bottom: 5px;
 }
@@ -1175,7 +1178,7 @@ team
   display: block;
   font-weight: 400;
   font-size: 15px;
-  color: #ff589e;
+  color: #9d3b8f;
   letter-spacing: 0.25px;
 }
 
@@ -1186,9 +1189,10 @@ team
   margin-bottom: 25px;
   font-weight: 400;
   font-size: 15px;
-  color: #777;
+  color: #525151;
   letter-spacing: 0.6px;
   line-height: 26px;
+  height: 180px
 }
 
 /* 
@@ -1214,7 +1218,7 @@ pricing
 }
 
 .pricing-item.active .pricing-body .price-wrapper {
-  background-color: #ff589e;
+  background-color: #6c098a;
 }
 
 .pricing-item.active .pricing-body .price-wrapper .currency {
@@ -1351,7 +1355,7 @@ blog
 }
 
 .blog-post-thumb h3 a:hover {
-  color: #ff589e;
+  color: #6c098a;
 }
 
 .blog-post-thumb .text {
@@ -1361,6 +1365,7 @@ blog
   letter-spacing: 0.26px;
   line-height: 26px;
   margin-bottom: 15px;
+  height: 355px;
 }
 
 .blog-post-thumb .post-footer span {
@@ -1391,6 +1396,7 @@ contact
 
 #contact-us {
   padding: 160px 0px;
+  
 }
 
 #contact-us h5 {
@@ -1415,7 +1421,7 @@ contact
 
 .contact-form input,
 .contact-form textarea {
-  color: #777;
+  color: #777777;
   font-size: 14px;
   border: 1px solid #eee;
   width: 100%;
@@ -1442,7 +1448,7 @@ footer
 --------------------------------------------- 
 */
 footer {
-  background-image: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
+  background-image: linear-gradient(127deg, #141016 0%, #6c098a 91%);
   padding-top: 30px;
 }
 
@@ -1458,9 +1464,9 @@ footer .social li {
 }
 
 footer .social li a {
-  color: #9d5bd9;
+  color: #6c098a;
    text-align: center;
-  background-color: #fff;
+  background-color: #0b0909;
   width: 36px;
   height: 36px;
   line-height: 36px;
@@ -1474,7 +1480,7 @@ footer .social li a {
 }
 
 footer .social li a:hover {
-  background-color: #ff589e;
+  background-color: #ff5858;
   color: #fff;
 }
 
@@ -1510,7 +1516,7 @@ preloader
 */
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(135deg, #a759d1 0%, #8261ee 100%);
+  background-image: linear-gradient(135deg, #0b0a0b 0%, #5b2295 100%);
   left: 0;
   right: 0;
   top: 0;
@@ -1533,7 +1539,7 @@ preloader
 }
 
 #preloader .jumper > div {
-  background-color: #fff;
+  background-color: #df9be6;
   width: 10px;
   height: 10px;
   border-radius: 100%;
